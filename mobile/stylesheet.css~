@@ -1,0 +1,290 @@
+
+body {
+  background: #F8ECE0;
+  color: #000000;
+}
+
+/*
+#divheader {
+ position: fixed;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 50;
+  min-height:10%;
+  background-color:#8EC1DA;
+  
+}
+
+
+#divmain {
+  padding: 2px;
+  position:fixed;
+  left:0;
+  top:50;
+  background-color:#F8ECE0;
+  width: 100%;
+  height: 10%;
+  min-height: 80%;
+  overflow:auto;
+}
+
+
+
+#divfooter {
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  min-height:10%;
+  height:50px;
+  background-color:#8EC1DA;
+    
+}
+*/
+
+#divheader {
+  position:absolute;
+  top:0px; 
+  left:0px;
+  height:50px;
+    width:100%;
+  background-color:#8EC1DA;
+}
+
+#divmain {  
+  padding: 2px;
+  position:absolute;
+  top:50px; 
+  bottom:50px; 
+  left:0px;
+  overflow:auto;
+  width: 99%;
+  background-color:#F8ECE0;
+}
+
+#divfooter { 
+  position:absolute;
+  bottom:0px; 
+  left:0px;
+  height:50px;
+    width:100%;
+  background-color:#8EC1DA;
+}
+
+.fichatitulo {
+  display: inline;
+  position: relative;
+  float:left;
+  font-weight: bold;
+  font-family: tahoma, sans-serif;
+  font-size: 10px;
+  text-align:center;
+  line-height: 20px;
+  height: 20px;
+  width: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  
+background: #fcffd3; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #fcffd3 30%, #f9ffaf 84%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(30%,#fcffd3), color-stop(84%,#f9ffaf)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* IE10+ */
+background: radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcffd3', endColorstr='#f9ffaf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+  
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+  
+  -webkit-box-shadow: 0px 2px 0px 0px #B6B483;
+-moz-box-shadow: 0px 2px 0px 0px #B6B483;
+box-shadow: 0px 2px 0px 0px #B6B483;
+
+-moz-transform: scale(1) rotate(20deg);
+-webkit-transform: scale(1) rotate(20deg);
+-o-transform: scale(1) rotate(20deg);
+-ms-transform: scale(1) rotate(20deg);
+transform: scale(1) rotate(20deg);
+-webkit-transition: all 0.3s ease;
+}
+
+
+.fichatitulo2{
+display: inline;
+position: relative;
+  float:left;
+  font-weight: bold;
+  font-family: tahoma, sans-serif;
+  font-size: 10px;
+  text-align:center;
+  line-height: 20px;
+  height: 20px;
+  width: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  
+background: #fcffd3; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #fcffd3 30%, #f9ffaf 84%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(30%,#fcffd3), color-stop(84%,#f9ffaf)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* IE10+ */
+background: radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcffd3', endColorstr='#f9ffaf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+  
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+  
+  -webkit-box-shadow: 0px 2px 0px 0px #B6B483;
+-moz-box-shadow: 0px 2px 0px 0px #B6B483;
+box-shadow: 0px 2px 0px 0px #B6B483;
+
+-moz-transform: scale(1) rotate(-20deg);
+-webkit-transform: scale(1) rotate(-20deg);
+-o-transform: scale(1) rotate(-20deg);
+-ms-transform: scale(1) rotate(-20deg);
+transform: scale(1) rotate(-20deg);
+-webkit-transition: all 0.3s ease;
+}
+
+#idioma {
+  margin-top: 5px;
+  text-align:center;
+  font-size: 28px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+    -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+
+.idioma { 
+   font-size: 28px;
+  
+  
+}
+
+.fichapequena {
+  display: inline;
+  position: relative;
+  float:left;
+  font-weight: bold;
+  font-family: tahoma, sans-serif;
+  font-size: 14px;
+  text-align:center;
+  line-height: 25px;
+  height: 25px;
+  width: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  
+background: #fcffd3; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #fcffd3 30%, #f9ffaf 84%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(30%,#fcffd3), color-stop(84%,#f9ffaf)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* IE10+ */
+background: radial-gradient(center, ellipse cover, #fcffd3 30%,#f9ffaf 84%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcffd3', endColorstr='#f9ffaf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+  
+  -webkit-box-shadow: 0px 2px 0px 0px #B6B483;
+-moz-box-shadow: 0px 2px 0px 0px #B6B483;
+box-shadow: 0px 2px 0px 0px #B6B483;
+}
+.espaciofichapequena {
+   display: inline;
+  position: relative;
+  float:left;
+  font-weight: bold;
+  font-family: tahoma, sans-serif;
+  font-size: 14px;
+  text-align:center;
+  line-height: 25px;
+  height: 25px;
+  width: 25px;
+
+}
+#puntos { 
+  display: inline;
+  position: relative;
+  float:left;
+  background: url(images/minipuntos.png) no-repeat;
+  font-weight: bold;
+  font-family: tahoma, sans-serif;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align:center;
+  line-height: 25px;
+  height: 25px;
+  width:25px;
+  
+}
+
+input[type="text"] {
+  padding:5px;
+  vertical-align: bottom;
+  background: #8EC1DA;
+  font-family: tahoma, sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0404B4;
+     -moz-border-radius-topleft: 2px;
+-moz-border-radius-topright: 2px;
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-bottomleft: 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border-radius: 2px 2px 2px 2px; 
+}
+
+input[type="text"]:hover, input[type="text"]:focus{
+  background: #FFFFFF;
+  color: #8EC1DA;
+}
+
+input[type="submit"] { 
+  text-align:middle;
+  background: #8EC1DA;
+  font-family: tahoma, sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  height: 25px;
+  line-height: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0404B4;
+     -moz-border-radius-topleft: 2px;
+-moz-border-radius-topright: 2px;
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-bottomleft: 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border-radius: 2px 2px 2px 2px; 
+}
+input[type="submit"]:hover { 
+  background: #A9D0F5;
+  color: #0404B4;
+}

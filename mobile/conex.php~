@@ -1,0 +1,20 @@
+<?php
+
+/*
+$dbhost='localhost';
+$dbusername='root';
+$dbuserpass='admin';
+$dbname = 'desapalabrados3';
+*/
+
+$dbhost='mysql17.000webhost.com';
+$dbusername='a5958512_dadmin';
+$dbuserpass='desadmin1';
+$dbname = 'a5958512_desapal';
+
+
+// Ahora conectamos a la base de datos.
+mysql_connect ($dbhost, $dbusername, $dbuserpass);
+// y la seleccionamos  para poder trabajar con ella.
+mysql_select_db($dbname) or die('Cannot select database');
+?> 
